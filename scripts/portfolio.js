@@ -1,0 +1,1 @@
+"use strict";var headerTxt=$(".header-txt h1"),separator=$("#svg-divisor");TweenMax.staggerFromTo(headerTxt,.4,{x:"-100%",opacity:0},{x:"0%",opacity:1,delay:.5},.1),TweenMax.staggerFromTo(separator,.4,{x:"-100%",opacity:0},{x:"0%",opacity:1,delay:1},.1),$(document).ready(function(){$(".grid").masonry({itemSelector:".grid-item"})});
